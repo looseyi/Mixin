@@ -13,8 +13,15 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testCallSwift() {
         // This is an example of a functional test case.
+        MixinSwift.callObjC()
+        XCTAssert(true, "Pass")
+    }
+
+    func testCallObjC() {
+        // This is an example of a functional test case.
+        MixinObjC.callSwift()
         XCTAssert(true, "Pass")
     }
     

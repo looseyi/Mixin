@@ -1,0 +1,16 @@
+PODS:
+  - Mixin (0.1.0)
+
+DEPENDENCIES:
+  - Mixin (from `../`)
+
+EXTERNAL SOURCES:
+  Mixin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mixin: f8222000156b9c8e21ebdfc37a870a6c8af56d40
+
+PODFILE CHECKSUM: d44e29923f01a6159fca06fc4f870c55e2de0a83
+
+COCOAPODS: 1.9.3
