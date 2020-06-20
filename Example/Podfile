@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Mixin_Tests' do
+  pod 'Mixin', :path => '../'
+  
+  
+end
